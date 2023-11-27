@@ -1,0 +1,381 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+	margin-top: 30px;
+}
+
+.gaya{
+	text-align: center;
+	background-color: black;
+	display: block;
+}
+
+.gaya h1 {
+	color: rgba(243, 61, 61, 0.579);
+	margin-left: 25px;
+	margin-right: 25px;
+	font-style: oblique;
+	font-size: 35px;
+}
+
+.gaya h1:hover {
+	text-shadow: 0 0 5px yellow, 0 0 10px yellow,
+		0 0 15px #ff852e, 0 0 20px #ff852e,
+		0 0 25px #ff852e;
+}
+
+.gaya body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gaya a {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.gaya a:hover {
+	color: black;
+	background: rgb(61, 216, 61);
+	box-shadow: 0 0 10px rgb(61, 216, 61),
+		0 0 40px rgb(61, 216, 61),
+		0 0 80px rgb(61, 216, 61);
+	transition-delay: 1s;
+}
+
+.gaya a span {
+	position: absolute;
+	display: block;
+}
+
+.gaya a span:nth-child(1) {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, rgb(61, 216, 61));
+}
+
+.gaya a:hover span:nth-child(1) {
+	left: 100%;
+	transition: 1s;
+}
+
+.gaya a span:nth-child(3) {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, rgb(61, 216, 61));
+}
+
+.gaya a:hover span:nth-child(3) {
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.gaya a span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, rgb(61, 216, 61));
+}
+
+.gaya a:hover span:nth-child(2) {
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.gaya a span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, rgb(61, 216, 61));
+}
+
+.gaya a:hover span:nth-child(4) {
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+/* class container */
+
+.gaya .container a {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.gaya .container a:hover {
+	color: black;
+	background: rgb(226, 61, 226);
+	box-shadow: 0 0 10px rgb(226, 61, 226),
+		0 0 40px rgb(226, 61, 226),
+		0 0 80px rgb(226, 61, 226);
+	transition-delay: 1s;
+}
+
+.gaya .container a span {
+	position: absolute;
+	display: block;
+}
+
+.gaya .container a span:nth-child(1) {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, rgb(226, 61, 226));
+}
+
+.gaya .container a:hover span:nth-child(1) {
+	left: 100%;
+	transition: 1s;
+}
+
+.gaya .container a span:nth-child(3) {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, rgb(226, 61, 226));
+}
+
+.gaya .container a:hover span:nth-child(3) {
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.gaya .container a span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, rgb(226, 61, 226));
+}
+
+.gaya .container a:hover span:nth-child(2) {
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.gaya .container a span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, rgb(226, 61, 226));
+}
+
+.gaya .container a:hover span:nth-child(4) {
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+/* class clover */
+
+.gaya .clover a {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.gaya .clover a:hover {
+	color: black;
+	background: rgb(107, 200, 237);
+	box-shadow: 0 0 10px rgb(107, 200, 237),
+		0 0 40px rgb(107, 200, 237),
+		0 0 80px rgb(107, 200, 237);
+	transition-delay: 1s;
+}
+
+.gaya .clover a span {
+	position: absolute;
+	display: block;
+}
+
+.gaya .clover a span:nth-child(1) {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, rgb(107, 200, 237));
+}
+
+.gaya .clover a:hover span:nth-child(1) {
+	left: 100%;
+	transition: 1s;
+}
+
+.gaya .clover a span:nth-child(3) {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, rgb(107, 200, 237));
+}
+
+.gaya .clover a:hover span:nth-child(3) {
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.gaya .clover a span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, rgb(107, 200, 237));
+}
+
+.gaya .clover a:hover span:nth-child(2) {
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.gaya .clover a span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, rgb(107, 200, 237));
+}
+
+.gaya .clover a:hover span:nth-child(4) {
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+.jumbotron {
+	height: 500px;
+	background-image: url(../img/IMG_4903.JPG);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -140px;
+	overflow: hidden;
+	position: relative;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #ddd;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: rgba(255,255,255,.8);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.kiri, .kanan {
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: 1.2s;
+}
+
+.kanan {
+	transform: translate(50px, 0);
+}
+
+.kiri-go, .kanan-go {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.portfolio {
+	background-color: #eee;
+}
+
+.portfolio .thumbnail {
+	opacity: 0;
+	transform: translate(0,-40px);
+	transition: .3s;
+}
+
+.portfolio .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.contact {
+	min-height: 800px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
